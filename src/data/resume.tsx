@@ -73,27 +73,26 @@ export const DATA = {
 
   work: [
     {
-  company: "Nexus E1",
-  href: "#",
-  badges: ["Remote"],
-  location: "India · Remote",
-  logoUrl: "/nexus.jpg",
-  start: "Aug 2025",
-  end: "Present",
-  positions: [
-    {
-      title: "Contributor",
-      employmentType: "Full-time",
+      company: "Nexus E1",
+      href: "#",
+      badges: ["Remote"],
+      location: "India · Remote",
+      logoUrl: "/nexus.jpg",
       start: "Aug 2025",
       end: "Present",
-      bullets: [
-        "Created and fine-tuned a custom extension for Algolog",
-        "Implemented backend features with hands-on development and optimization",
+      positions: [
+        {
+          title: "Contributor",
+          employmentType: "Full-time",
+          start: "Aug 2025",
+          end: "Present",
+          bullets: [
+            "Created and fine-tuned a custom extension for Algolog",
+            "Implemented backend features with hands-on development and optimization",
+          ],
+        },
       ],
     },
-  ],
-},
-
   ],
 
   education: [
@@ -247,9 +246,82 @@ export const DATA = {
 
   hackathons: [
     {
+      title: "Algo Arena 2.0, - CVRGU BBSR",
+      dates: "April 19th, 2025",
+      location: "Winner",
+      description:
+        "Secured 1st position at Algo Arena 2.0 (GDG On Campus – CVRGU), gaining hands-on experience in competitive programming through high-pressure algorithmic problem-solving, strategic decision-making, and performance optimization.",
+      image:
+        "https://res.cloudinary.com/darxayoxh/image/upload/v1765739341/Screenshot_2025-12-15_002731_zhiuhy.png",
+      links: [
+        {
+          title: "Certificate",
+          icon: <Icons.googleDrive className="h-4 w-4" />,
+          href: "https://certificate.givemycertificate.com/c/b3ce75ab-cfc5-4f69-83cc-c5a164cd44a8",
+        },
+        {
+          title: "Prize Distribution",
+          icon: <Icons.googleDrive className="h-4 w-4" />,
+          href: "https://drive.google.com/file/d/1cqf880KWIvarwwoHbqXmcyoewf6DDDA0/view?usp=drive_link",
+        },
+      ],
+    },
+    {
+      title: "HackOdisha 2025 - NIT Rourkela",
+      //Sep 6 - 8, 2025
+      dates: "September 6th, 2025",
+      location: "Top 100 teams",
+      description:
+        "Created Vision AI, an assistive platform empowering visually impaired users with real-time currency note recognition, multilingual voice assistance, and comprehensive scan history tracking to enhance accessibility and independence.",
+      image:
+        "https://hackodisha-4.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2Fd7d594eaf4ac4a4db9cd998c65c0fc9a%2Fassets%2Ffavicon%2F254.png&w=1440&q=75",
+      links: [
+        {
+          title: "Live",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://devfolio.co/projects/visionai-31e9",
+        },
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/decodewidwaiz/VisionAi",
+        },
+        {
+          title: "Certificate",
+          icon: <Icons.googleDrive className="h-4 w-4" />,
+          href: "https://certificate.givemycertificate.com/c/b3ce75ab-cfc5-4f69-83cc-c5a164cd44a8",
+        },
+      ],
+    },
+    {
+      title: "SIH 2025 - Internals",
+      dates: "September 20th, 2025",
+      location: "Top 50 teams",
+      description:
+        "Created KisanMitra AI, a farmer-centric intelligent platform delivering crop advisory, disease detection, and weather-aware recommendations to improve productivity, decision-making, and sustainable farming practices.",
+      image: "https://iic.iitbhilai.ac.in/images/SIH2.png",
+      links: [
+        {
+          title: "Live",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "#",
+        },
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "#",
+        },
+        {
+          title: "Certificate",
+          icon: <Icons.googleDrive className="h-4 w-4" />,
+          href: "#",
+        },
+      ],
+    },
+    {
       title: "Rewind And Recode, 2025 - IIIT Bhubaneswar",
       dates: "November 7th, 2025",
-      location: "Winner",
+      location: "Top 10 Teams",
       description:
         "Built SikshaFlow AI, an intelligent education platform that generates complete lecture materials, interactive quizzes, and personalized doubt-solving sessions from simple prompts.",
       image:
